@@ -1,0 +1,4 @@
+---
+  - name: reinicia apache
+    service: name=apache2 state=restarted
+# handlers file for wordpress
